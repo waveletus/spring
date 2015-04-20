@@ -1,0 +1,10 @@
+1. Prerequest: You need have one database such as mysql installed.
+Refer http://stackoverflow.com/questions/2839321/java-connectivity-with-mysql
+2. Then create one db.
+CREATE TABLE `customer` (
+  `CUST_ID` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+    `NAME` VARCHAR(100) NOT NULL,
+      `AGE` INT(10) UNSIGNED NOT NULL,
+        PRIMARY KEY (`CUST_ID`)
+	) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+3. Now you can run this project.
